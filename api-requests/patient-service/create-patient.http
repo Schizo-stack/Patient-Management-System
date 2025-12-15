@@ -1,0 +1,12 @@
+### Creates a new patient Entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Arthur Morgan Kafka consumer",
+  "email": "kafka_test@example.com",
+  "address": "123 main street",
+  "dateOfBirth": "1864-06-12",
+  "registeredDate": "1894-06-12"
+}
+###
